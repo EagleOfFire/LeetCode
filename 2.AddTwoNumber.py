@@ -30,10 +30,6 @@ class Solution(object):
         value1 = ''.join(str(e) for e in value1)
         value2 = ''.join(str(e) for e in value2)
         result = list(str(int(value1) + int(value2)))
-        print(value1)
-        print(value2)
-        print(str(int(value1) + int(value2)))
-        print(result)
         LN = None
         for i in range(len(result)):
             LN = ListNode(result[i], LN)
