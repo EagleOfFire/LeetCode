@@ -1,5 +1,5 @@
 class Solution:
-    def getMaximumGold(self, grid: List[List[int]]) -> int:
+    def getMaximumGold(self, grid: list[list[int]]) -> int:
         row, col = len(grid), len(grid[0])
         visited = [[0] * col for _ in range(row)]
         ans = 0
