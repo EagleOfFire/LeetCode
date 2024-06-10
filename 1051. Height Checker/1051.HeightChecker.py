@@ -1,5 +1,5 @@
 class Solution:
-    def heightChecker(self, heights: List[int]) -> int:
+    def heightChecker(self, heights: list[int]) -> int:
         ans = 0
         expectedHeights = []
         expectedHeights[:] = heights[:]
